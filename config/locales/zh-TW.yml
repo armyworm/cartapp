@@ -4,3 +4,9 @@ zh-TW:
       product:
         title: "名稱"
         description: "描述"
+        image_url: "圖片"
+        price: "價格"
+        categiry: "類別"
+        subcategory: "子類別"
+      user:
+        email: "信箱"
