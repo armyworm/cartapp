@@ -1,5 +1,5 @@
 class CartController < ApplicationController
-	def method_name
+	def add
 		id = params[:id]
 			if session[:cart] then
 				cart = session[:cart]
