@@ -1,0 +1,6 @@
+zh-TW:
+  activerecord:
+    attributes:
+      product:
+        title: "名稱"
+        description: "描述"

@@ -10,7 +10,9 @@
 
 <nav id= "nav">
 	<div id="page_nav">
-	<%= link_to "Home", root_path %>
+	<%= link_to "中文版", :controller => controller_name, :action => action_name, :locale => "zh-TW" %>
+	<%= link_to "English", :controller => controller_name, :action => action_name, :locale => "en" %>
+	<%= link_to t("Home"), root_path %>
 	<%= link_to "Shop", products_path %>
 	<%= link_to "About", page_about_path %>
 	<%= link_to "FAQs", page_fags_path %>
